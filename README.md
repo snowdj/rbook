@@ -1,9 +1,21 @@
-# Learning statistics with R
 
-Contains LaTeX source for:
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+Learning statistics with R
+==========================
 
-DJ Navarro (2018). *Learning statistics with R: A tutorial for psychology students and other beginners.* (Version 0.6). [https://compcogscisydney.org/learning-statistics-with-r](http://compcogscisydney.org/learning-statistics-with-r)
+This repository contains all the source materials for *Learning Statistics with R*. There are two versions of the content, the `original` version (LSR v0.6) written in LaTeX and the `bookdown` adaptation (LSR v0.6.1). The two versions are kept in distinct folders to ensure they share no dependencies.
 
-Scripts to generate the images are included, as are the data sets from which they are drawn. In principle, this repository and the lsr package itself should include everything needed to reproduce the book from scratch.
+Bookdown
+--------
 
-The book is released under a creative commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA.
+To generate the bookdown version, source the `bookdown/serve_book.R` script. The generated book appears in the `bookdown/_book` subdirectory.
+
+Original
+--------
+
+To typeset the original LaTeX version, the root file is `original/pdf/lsr.tex`, and the generated file is the `original/pdf/lsr.pdf` file it produces.
+
+Docs
+----
+
+GitHub pages deploys the site from the `docs` directory; to publish an updated version of the bookdown version to <https://learningstatisticswithr.com> just copy the entire contents of `bookdown/_book` to `docs/book`, and push to GitHub.
