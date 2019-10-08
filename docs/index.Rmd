@@ -21,21 +21,20 @@ Back in the grimdark pre-Snapchat era of humanity (i.e. early 2011), I started t
 - [Data sets](./data.zip)
 - [Source on GitHub](https://github.com/djnavarro/rbook)
 
-Thanks to the incredible efforts of [Emily Kothe](https://twitter.com/emilyandthelime), there is now also a tentative bookdown adaptation (version 0.6.1) of LSR. We're still working on typo fixes and translation errors, but here it is:
+The book is associated with the `lsr` package on CRAN and GitHub. The package is probably okay for many introductory teaching purposes, but some care is required. The package does have some limitations (e.g., the `etaSquared` function does strange things for unbalanced ANOVA designs), and it has not been updated in a while. 
 
-- [LSR version 0.6.1](./book/) (bookdown)
 
-The book is associated with the `lsr` package on CRAN and GitHub. The package is probably okay for many introductory teaching purposes, but some care is required. The package does have some limitations (e.g., the `etaSquared` function does strange things for unbalanced ANOVA designs), but I haven't updated it in a while because I've decided to spend some time learning  more about package development before tackling this. 
+There are now several variations of the original LSR book:
 
-The decision to release the book under a Creative Commons licence reflects the fact that - much like the package - I've found very little time to update the book myself, and I feel a little bad about that. There have been a number of people who have asked about adapting the book or using it in teaching, and I've invariably said "yes, please do!" so it seems like a sensible thing to do is throw it open for anyone to adapt it if they would like to. Like most people writing open textbooks, I chose a BY-SA licence. As per the licence "this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license - CC BY-SA."
+- [Emily Kothe](https://twitter.com/emilyandthelime) created a [bookdown adaptation](./book/) of LSR
+- Matt Crump's has incorporated some LSR content in [Answering Questions with Data](https://crumplab.github.io/statistics/)
+- My own R programming notes [R for Psychological Science](https://psyr.org/) adapt some LSR content
+- [David Foxcroft](https://twitter.com/davidfoxcroft) has adapted LSR to create [Learning Statistics with Jamovi](https://sites.google.com/brookes.ac.uk/learning-stats-with-jamovi)
+- [Tom Faulkenberry](https://twitter.com/tomfaulkenberry) has adapted David Foxcroft's version to create [Learning Statistics with JASP](http://learnstatswithjasp.com/)
 
-There are a few projects that I'm aware of that adapt or extend some of the content from LSR
+I have suggested that someone write a *Learning Statistics with an Abacus* adaptation but so far there has been little interest. 
 
-- Matt Crump has a lovely book-in-progress that uses some LSR content, [Answering Questions with Data](https://crumplab.github.io/statistics/)
-- David Foxcroft has produced a really slick adaptation to jamovi, [Learning Statistics with Jamovi]("https://sites.google.com/brookes.ac.uk/learning-stats-with-jamovi)
-- My own approach to adapting LSR is another work-in-progress, [R for Psychological Science](https://psyr.org/)
-
-If you know of any other projects using LSR, please let me know. I'd love to list them here! 
+Due to the lack of demand for the abacus version, I have started work on a [tidy version](https://djnavarro.github.io/tidylsrbook/) of the original LSR book, which will take a Tidyverse-oriented approach and rely on a new ["tidylsr"](https://github.com/djnavarro/tidylsr) package. It is early days in the revision, but if anyone has any suggestions for the new book, please feel free to open an issue on the [github page](https://github.com/djnavarro/tidylsrbook/issues)
 
 
 ### Table of Contents
